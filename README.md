@@ -28,7 +28,7 @@ week2/
 ├── run.png
 └── browser.png
 
-## 🚀 Running with Docker
+## Running with Docker
 
 ### Step 1: Build Docker Image
 docker build -t week2-app .
@@ -39,7 +39,7 @@ docker run -d -p 8080:80 week2-app
 ### Step 3: Open the App
 Go to http://localhost:8080 in your browser.
 
-## 🧊 Running with Podman
+## Running with Podman
 ### Step 1: Set Up Podman Machine
 podman machine init
 podman machine start
@@ -50,9 +50,9 @@ podman run -d -p 8081:80 bonus_week2-app
 ### Step 4: Open the App
 Go to http://localhost:8081 in your browser.
 
-## 🖼️ Screenshots
+## Screenshots
 Screenshots for Docker and Podman steps are located in the screenshots/ directory under docker/ and podman/.
 
-## ✅ Output
+## Output
 A working HTML/CSS/JS app inside containers, displaying an alert when the button is clicked.
 
